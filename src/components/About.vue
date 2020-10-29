@@ -1,5 +1,7 @@
 <template>
     <div class="about">
+    <h1 class="watermark">Botón</h1>
+
         <div class="team">
             <main>
                 <img class="mm dev" src="../assets/dev.svg" alt="" srcset="">
@@ -38,6 +40,15 @@ export default {
 </script>
 
 <style scoped>
+.watermark{
+    position: fixed;
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 350px;
+    opacity: 10%;
+    z-index: -1;
+}
 main{
     width: 300px;
     margin: auto;

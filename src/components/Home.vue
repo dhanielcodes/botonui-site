@@ -1,5 +1,6 @@
 <template>
     <div>
+    <h1 class="watermark">Botón</h1>
         <div class="main">
             <h1>Botón.</h1>
             <router-link to="/docs"><button class="docs_link">Get started</button></router-link>
@@ -19,9 +20,20 @@ import { gsap } from "gsap"
 
 export default {
     mounted() {
-        let tl = gsap.timeline({delay: 3})
+        let tl = gsap.timeline()
 
-        tl.from('.main', 1, {
+        tl.from('.watermark', 1, {
+                ease: 'expo',
+                opacity: 1,
+                delay: 2,
+
+        })
+        .from('.watermark', 1, {
+            top: '10%',
+            ease: 'expo',
+
+        })
+        .from('.main', 1, {
             opacity: 0,
             ease: 'expo'
         })
@@ -38,6 +50,15 @@ export default {
 </script>
 
 <style scoped>
+  .watermark{
+    position: fixed;
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 350px;
+    opacity: 10%;
+    z-index: -1;
+  }
 .main{
     text-align: center;
     margin-top: 20vh

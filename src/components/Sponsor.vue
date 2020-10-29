@@ -1,5 +1,7 @@
 <template>
     <div class="sponsor">
+    <h1 class="watermark">Botón</h1>
+
         <a href='#'>Sponsor this project</a>
 
         <img src="../assets/sponsor.svg" alt="" srcset="">
@@ -40,5 +42,13 @@ img{
     bottom: 0;
     left: 0;
 }
-
+ .watermark{
+    position: fixed;
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 350px;
+    opacity: 10%;
+    z-index: -1;
+  }
 </style>
