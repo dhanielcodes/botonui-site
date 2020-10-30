@@ -2,7 +2,7 @@
     <div class="sponsor">
     <h1 class="watermark">Botón</h1>
 
-        <a href='#'>Sponsor this project</a>
+        <a href='https://www.patreon.com/devdanielcodes' target="_blank">Sponsor this project</a>
 
         <img src="../assets/sponsor.svg" alt="" srcset="">
     </div>

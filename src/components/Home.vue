@@ -8,8 +8,7 @@
         <div class="misc">
             <h2 class="mis">Get amazing button and hover styles for your website and webapp UIs.</h2>
             <div class="btns mis">
-                <a href="#"><button class="docs_link">Download</button></a>
-                <a href="#"><button class="docs_link">CDN</button></a>
+                <router-link to="/docs"><button class="docs_link">CDN</button></router-link>
             </div>
         </div>
     </div>
@@ -97,9 +96,7 @@ export default {
     margin-top: 30px
 }
 .btns .docs_link{
-    margin: 0 10px;
     width: 150px;
-    margin-bottom: 10px;
 }
 @media screen and (max-width: 600px){
     .misc h2{
