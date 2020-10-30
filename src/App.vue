@@ -2,6 +2,7 @@
   <div>
     <Nav></Nav>
     <router-view></router-view>
+    <a class="git" href="https://github.com/devdanielcodes/botonui" target="_blank"><img src="./assets/github.svg" alt="" srcset=""></a>
   </div>
 </template>
 
@@ -28,5 +29,9 @@ export default {
     margin: 0;
     box-sizing: border-box;
   }
-
+.git{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
 </style>
