@@ -14,7 +14,7 @@
                     <a href="https://devdanielcodes.vercel.app/" target="_blank"><img src="../assets/link.svg" alt="" srcset=""></a>
                 </div>
             </main>
-            <main>
+            <!-- <main>
                 <img class="mm dev" src="../assets/peter.svg" alt="" srcset="">
                 <h2 class="mm">Amugen Peter</h2>
                 <p class="mm">Co-Developer</p>
@@ -24,11 +24,11 @@
                     <a href="https://www.instagram.com/danieladekoya_/" target="_blank"><img src="../assets/instagram.svg" alt="" srcset=""></a>
                     <a href="https://devdanielcodes.vercel.app/" target="_blank"><img src="../assets/link.svg" alt="" srcset=""></a>
                 </div>
-            </main>
+            </main> -->
         </div>
         
         <div class="side">
-            <h1>Developers.</h1>
+            <h1>Developer.</h1>
         </div>
     </div>
 </template>
@@ -82,9 +82,9 @@ main{
     position: fixed;
     bottom: 0
 }
-@media screen and (max-width: 615px){
+/* @media screen and (max-width: 615px){
     .side{
         position: relative;
     }
-}
+} */
 </style>
