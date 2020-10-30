@@ -4,10 +4,11 @@
 
         <p class="copy_cdn">Copy CDN</p>
         <div class="code">
-          &lt;link rel="stylesheet" href="https://cdn.statically.io/gh/devdanielcodes/botonui/main/dist/boton.css"&gt;
+          &lt;link rel="stylesheet" href="https://cdn.statically.io/gh/devdanielcodes/botonui/main/dist/boton-ui.min.css"&gt;
         </div>
+        or
         <div class="code">
-          &lt;link rel="stylesheet" href="https://cdn.statically.io/gh/devdanielcodes/botonui/main/dist/boton.min.css"&gt;
+          &lt;link rel="stylesheet" href="https://cdn.statically.io/gh/devdanielcodes/botonui/main/dist/boton-ui.css"&gt;
         </div>
 
         <h3>For now on the initial release of boton you have access to 20 customed button hover styles, and 4 responsive navigations bar layouts</h3>
